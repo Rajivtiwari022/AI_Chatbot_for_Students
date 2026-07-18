@@ -1,118 +1,1 @@
-€•b@      Œsklearn.feature_extraction.text”ŒCountVectorizer”“”)”}”(Œinput”Œ content”Œencoding”Œutf-8”Œdecode_error”Œstrict”Œ
-strip_accents”NŒpreprocessor”NŒ	tokenizer”NŒanalyzer”Œword”Œ	lowercase”ˆŒ
-token_pattern”Œ
-(?u)\b\w\w+\b”Œ
-stop_words”Œ english”Œmax_df”G?ð      Œmin_df”KŒmax_features”NŒngram_range”KK†”Œ
-vocabulary”NŒbinary”‰Œdtype”Œnumpy”Œint64”“”Œfixed_vocabulary_”‰Œ_stop_words_id”ŠÀdöªbŒvocabulary_”}”(Œhi”MyŒ goodbye”MdŒlater”MÌŒ
-goodbye later”MeŒgood”M`Œ morning”MŒgood morning”McŒ	afternoon”KŒgood afternoon”MaŒ evening”M0Œgood evening”MbŒhey”MxŒcare”KuŒ hobbies”M|Œtell”M2Œthoughts”M>Œ
-importance”M–Œ
-creativity”KÀŒthoughts importance”M?Œimportance creativity”M—Œ	memorable”MŒmoment”MŒlife”MÙŒtell memorable”M4Œmemorable moment”MŒmoment life”MŒgoals”M^Œyear”MuŒ
-goals year”M_Œenjoy”M)Œ
-hobbies enjoy”M}Œ believe”K_Œ meaning”MþŒbelieve meaning”K`Œmeaning life”MÿŒlive”MâŒworld”MrŒ
-live world”MãŒthink”M9Œ improve”M™Œ	education”MŒ
-think improve”M<Œimprove education”MšŒnew”M%Œve”MdŒ learned”MÕŒrecently”M¨Œnew ve”M'Œ
-ve learned”MfŒlearned recently”MÖŒhandle”MrŒchange”K„Œ
-handle change”MsŒchange life”K†Œhope”MƒŒ achieve”K
-Œyears”MwŒhope achieve”M„Œ
-achieve years”KŒ opinion”MEŒimpact”M”Œ
-technology”M)Œ society”MðŒopinion impact”MFŒimpact technology”M•Œtechnology society”M1Œvalues”M`Œ	important”M˜Œvalues important”MaŒdream”M Œ
-achieve dream”KŒlatest”MÏŒnews”M(Œ climate”KŒthink latest”M=Œlatest news”MÐŒnews climate”M)Œclimate change”KŒ	challenge”K‚Œfaced”M5Œdid”KçŒovercome”MOŒchallenge ve”KƒŒve faced”MeŒ	faced did”M6Œdid overcome”KéŒfavorite”MAŒfood”MVŒ
-favorite food”MCŒmovie”MŒfavorite movie”MFŒhobby”M~Œfavorite hobby”MDŒhelp”MtŒbook”KkŒlike”MÚŒ
-favorite book”MBŒ	book like”KlŒdoes”KöŒ typical”MPŒday”K×Œlook”MèŒdoes typical”KýŒtypical day”MQŒday look”KØŒ	look like”MéŒtype”MKŒ cuisine”KÇŒ
-favorite type”MHŒtype cuisine”MLŒtraveled”MIŒinteresting”M°Œplaces”M_Œtraveled interesting”MJŒinteresting places”M±Œplaces recently”M`Œkind”MÄŒmusic”MŒ	listening”MáŒ
-kind music”MÅŒmusic enjoy”MŒenjoy listening”M*Œtime”M@Œ
-time favorite”MBŒwork”MpŒstudy”MŒ
-work study”MqŒseason”MßŒfavorite season”MGŒ usually”M^Œspend”MùŒweekends”MiŒ
-usually spend”M_Œspend weekends”MúŒ holiday”MŒdestination”KãŒfavorite holiday”MEŒholiday destination”M‚Œ fondest”MTŒ	childhood”KŠŒmemories”M
-Œfondest childhood”MUŒchildhood memories”K‹Œpets”MRŒ	pets like”MSŒskill”MîŒlearn”MÓŒ	new skill”M&Œ
-skill like”MïŒ
-like learn”MÜŒway”MgŒrelax”M±Œlong”MäŒfavorite way”MIŒ	way relax”MhŒ
-relax long”M²Œlong day”MåŒspending”MûŒnature”M Œenjoy spending”M+Œ
-spending time”MüŒtime nature”MCŒ mistake”MŒgave”MXŒwrong”MsŒinformation”M Œ
-think gave”M;Œ
-gave wrong”MYŒwrong information”MtŒspecific”MöŒ
-help specific”MuŒasked”KEŒanswer”K3Œconfused”KªŒanswer confused”K4Œknow”MÇŒlunar”MêŒ eclipse”MŒ
-know lunar”MÈŒ
-lunar eclipse”MëŒreply”M³Œdid long”KèŒ
-long reply”MçŒ
-understand”MXŒweren”MjŒ helpful”MvŒtoday”MDŒ
-weren helpful”MkŒ
-helpful today”MwŒresponse”M¿Œcaused”K{Œbit”KfŒ
-inconvenience”M›Œresponse caused”MÁŒ
-caused bit”K|Œbit inconvenience”KgŒmake”MìŒmistakes”MŒ
-make mistakes”MíŒsaid”MÊŒmaking”MîŒ
-frustrated”MWŒmaking frustrated”MïŒerror”M/Œthink error”M:Œ	specifics”M÷Œ quantum”MŒ	mechanics”MŒknow specifics”MÉŒspecifics quantum”MøŒquantum mechanics”MŽŒ	offensive”M1Œresponse bit”MÀŒ
-bit offensive”KhŒapply”K7Œ	admission”KŒengineering”MŒ college”K‘Œ	rajasthan”M“Œapply admission”K8Œadmission engineering”KŒengineering college”MŒcollege rajasthan”K™Œeligibility”MŒcriteria”KÁŒpolytechnic”MaŒcolleges”KŒeligibility criteria”MŒcriteria admission”KÂŒadmission polytechnic”KŒpolytechnic colleges”McŒcolleges rajasthan”KžŒ
-management”MòŒquota”M‘Œseats”MãŒapply management”K:Œmanagement quota”MóŒquota seats”M’Œseats engineering”MåŒengineering colleges”MŒ
-counseling”KºŒ process”MpŒreap”M¤Œ
-admissions”KŒcounseling process”K»Œprocess reap”MsŒreap engineering”M¦Œengineering admissions”MŒ
-preference”MiŒchange college”K…Œcollege preference”K˜Œpreference reap”MjŒreap counseling”M¥Œcheck”K‡Œseat”MàŒ	allotment”K"Œresult”MÂŒ
-check seat”KˆŒseat allotment”MáŒallotment result”K#Œresult reap”MÃŒtech”MŒprograms”M|Œ
-criteria tech”KÆŒ
-tech programs”M$Œprograms rajasthan”MƒŒ diploma”KìŒ courses”K¼Œeligibility diploma”MŒdiploma courses”KíŒcourses polytechnic”K¿Œage”KŒlimit”MÝŒ	age limit”KŒ
-limit tech”MÞŒtech admissions”MŒadmissions rajasthan”KŒ lateral”MÍŒentry”M,Œcriteria lateral”KÄŒ
-lateral entry”MÎŒ
-entry tech”M.Œsc”MËŒst”MÿŒ
-candidates”KsŒeligibility sc”MŒsc st”MÌŒ
-st candidates”M Œcandidates tech”KtŒresident”M½Œ	mandatory”MôŒstate”MŒrajasthan resident”M˜Œresident mandatory”M¾Œmandatory admission”MõŒcolleges state”KŸŒ
-facilities”M7Œ	available”KLŒcampus”KqŒjaipur”MµŒresearch”M¸Œcentre”K}Œfacilities available”M8Œavailable campus”KNŒ
-campus jaipur”KrŒjaipur engineering”M¶Œcollege research”KšŒresearch centre”MºŒhostel”M…Œ
-government”MfŒ bikaner”KcŒhostel facilities”M‡Œavailable government”KRŒgovernment engineering”MhŒcollege bikaner”K“Œsports”MýŒ offered”M7Œ	technical”M&Œ
-university”MYŒkota”MÊŒkind sports”MÆŒsports facilities”MþŒfacilities offered”M>Œoffered rajasthan”M9Œrajasthan technical”MšŒtechnical university”M(Œuniversity kota”M\Œ library”M×Œmalaviya”MðŒnational”MŒ	institute”M¨Œmnit”MŒlibrary facilities”MØŒavailable malaviya”KTŒmalaviya national”MñŒnational institute”MŒinstitute technology”M«Œtechnology mnit”M/Œmnit jaipur”MŒ medical”M Œarya”KCŒmedical facilities”MŒavailable arya”KMŒarya college”KDŒcollege engineering”K”Œengineering jaipur”MŒtransportation”MGŒservices”MêŒswami”MŒ
-keshvanand”MÀŒtransportation services”MHŒservices offered”MëŒ
-offered swami”M:Œswami keshvanand”MŒkeshvanand institute”MÁŒtechnology jaipur”M.Œ ranking”MŸŒranking malaviya”M¢Œranking rajasthan”M£Œkota engineering”MËŒ current”KÊŒjecrc”MºŒcurrent ranking”KËŒ
-ranking jecrc”M¡Œjecrc jaipur”M»Œrank”M›Œdoes government”KøŒbikaner rank”KeŒrank engineering”MœŒranking arya”M Œglobal”M\Œranked”MŒglobal institute”M]Œ
-jaipur ranked”M¸Œranked engineering”MžŒspecializations”MóŒ program”MvŒspecializations offered”MõŒoffered tech”M;Œtech program”M#Œprogram rajasthan”M{Œrajasthan institute”M•Œoffer”M2Œelectronics”MŒ
-communication”K¤Œdoes rajasthan”KûŒtechnology offer”M0Œ
-offer tech”M5Œprogram electronics”MwŒelectronics communication”MŒcommunication engineering”K¥Œbranches”KoŒbranches available”KpŒavailable tech”KYŒtech rajasthan”M%Œ
-curriculum”KÍŒcomputer”K¨Œ science”MÖŒcurriculum tech”KÏŒ
-tech computer”MŒcomputer science”K©Œscience program”MÚŒ
-mechanical”MŒspecializations available”MôŒtech mechanical”M"Œmechanical engineering”MŒengineering program”M"Œajmer”KŒprogram government”MyŒ
-college ajmer”K’Œajmer offer”K Œ
-bikaner offer”KdŒprogram information”MzŒinformation technology”M§Œjhalawar”M½Œcollege jhalawar”K•Œ jodhpur”M¿Œcourses offered”K¾Œoffered government”M8Œgovernment polytechnic”MiŒpolytechnic college”MbŒcollege jodhpur”K–Œ	structure”M	Œcurriculum structure”KÎŒstructure diploma”M
-Œdiploma mechanical”KïŒengineering government”MŒshort”MìŒterm”M7Œ
-certification”K€Œoffer short”M4Œ
-short term”MíŒterm certification”M8Œcertification programs”KŒtime engineering”MAŒengineering programs”M#Œprograms available”M~Œavailable rajasthan”KWŒdual”MŒdegree”KÝŒ
-does malaviya”KúŒjaipur offer”M·Œ
-offer dual”M3Œdual degree”MŒdegree programs”KÞŒpostgraduate”MgŒpostgraduate diploma”MhŒareas”K@Œphd”MTŒresearch areas”M¹Œareas available”KAŒ
-available phd”KUŒphd programs”MUŒprograms government”M€Œ provide”MˆŒsummer”MŒinternships”M´Œdoes jaipur”KùŒcentre jecrc”K~Œ
-jecrc provide”M¼Œprovide summer”MŠŒsummer internships”MŒonline”MCŒonline courses”MDŒcourses available”K½Œcomplete”K¦Œ	long does”MæŒ
-does complete”K÷Œ
-complete tech”K§Œ holders”MŒentry available”M-Œavailable diploma”KOŒdiploma holders”KîŒholders engineering”M€Œmedium”M	Œinstruction”M¬Œmedium instruction”M
-Œinstruction tech”M­Œgovernment colleges”MgŒtypes”MMŒ	electives”MŒtypes electives”MNŒelectives offered”M
-Œ grading”MjŒfollowed”MRŒgrading followed”MkŒfollowed engineering”MSŒ general”MZŒ contact”K«Œ queries”MŒgeneral contact”M[Œcontact information”K±Œinformation technical”M¦Œtechnical education”M'Œeducation queries”MŒqueries rajasthan”MŒtouch”MEŒoffice”M<Œtouch admissions”MFŒadmissions office”KŒoffice arya”M>Œ	placement”MXŒinformation placement”M¥Œplacement office”MYŒ
-office global”M?Œcontact hostel”K¯Œ
-hostel office”M‰Œoffice malaviya”MAŒ details”KäŒ finance”MPŒcontact details”K®Œdetails finance”KåŒfinance office”MQŒoffice rajasthan”MBŒacademic”KŒ affairs”KŒ
-department”KáŒcontact academic”K¬Œacademic affairs”KŒaffairs department”KŒdepartment government”KâŒ council”K·Œarchitecture”K>Œindia”MœŒinformation council”M¡Œcouncil architecture”K¸Œarchitecture india”K?Œaicte”KŒ
-contact india”K°Œ
-india council”MŒcouncil technical”K¹Œeducation aicte”M Œdirectorate”KðŒinformation directorate”M¢Œdirectorate technical”KñŒeducation state”MŒstate india”MŒboard”KiŒ
-accreditation”KŒnba”M!Œinformation national”M¤Œnational board”MŒboard accreditation”KjŒaccreditation nba”K	Œ	nba india”M"Œgrants”MnŒ
-commission”K Œugc”MTŒcontact university”K³Œuniversity grants”MZŒgrants commission”MoŒcommission ugc”K¡Œ	ugc india”MUŒ related”M¯Œcontact reap”K²Œreap office”M§Œoffice admission”M=Œadmission related”KŒrelated queries”M°Œeducation rajasthan”M	Œadministration”KŒcontact administration”K­Œadministration office”KŒexamination”M1Œinformation examination”M£Œexamination office”M2Œoffice government”M@Œseats available”MäŒ
-programs arya”M}Œavailability”KFŒcurrent seat”KÌŒseat availability”MâŒavailability tech”KKŒprogram global”MxŒbranch”KmŒavailable electronics”KPŒengineering branch”MŒbranch malaviya”KnŒcivil”KŒŒavailability civil”KGŒcivil engineering”KŒavailability mechanical”KIŒinstitute engineering”M©Œengineering technology”M'Œprograms jaipur”M‚Œamity”K1Œ
-science amity”M×Œamity university”K2Œuniversity jaipur”M[Œindian”MžŒiiit”MŒprograms indian”MŒindian institute”MŸŒinstitute information”MªŒtechnology iiit”M-Œ	iiit kota”M‘Œavailability engineering”KHŒreserved”M»Œ
-categories”KyŒavailability reserved”KJŒreserved categories”M¼Œcategories tech”KzŒprograms engineering”MŒcutoff”KÐŒscore”MÛŒcutoff score”KÒŒ
-score tech”MÜŒscience engineering”MØŒengineering malaviya”M Œjaipur year”M¹Œcutoff tech”KÔŒengineering rajasthan”M$Œuniversity year”M]Œprevious”MkŒtech electronics”MŒcentre previous”KŒ
-previous year”MlŒyear cutoff”MvŒtech information”M!Œtechnology amity”M*Œscores”MÝŒprevious years”MmŒyears cutoff”MxŒ
-cutoff scores”KÓŒscores engineering”MÞŒobtain”M/Œdata”KÕŒ various”MbŒobtain previous”M0Œcutoff data”KÑŒdata various”KÖŒvarious engineering”McŒengineering branches”MŒ notable”M*Œalumni”K$Œnotable alumni”M,Œalumni malaviya”K)Œ	prominent”M„Œtell prominent”M6Œprominent alumni”M…Œalumni rajasthan”K,Œ
-successful”MŒsuccessful alumni”MŒalumni government”K'Œ
-distinguished”KòŒtell distinguished”M3Œdistinguished alumni”KóŒ
-alumni jaipur”K(Œ
-professionals”MtŒ	graduated”MlŒnotable professionals”M.Œprofessionals graduated”MuŒgraduated rajasthan”MmŒalumni amity”K%Œlist”MßŒkey”MÂŒ manipal”MöŒlist key”MàŒ
-key alumni”MÃŒalumni manipal”K*Œmanipal university”M÷Œtell notable”M5Œalumni engineering”K&Œcareer”KvŒpaths”MPŒtaken”MŒcareer paths”KxŒpaths alumni”MQŒajmer taken”K!Œachievements”K
-Œprovide details”M‰Œdetails notable”KæŒnotable achievements”M+Œachievements alumni”KŒnotable career”M-Œcareer achievements”KwŒ network”M#Œlearn alumni”MÔŒalumni network”K+Œnetwork achievements”M$Œachievements engineering”KŒfee”MJŒ
-fee structure”MLŒstructure tech”MŒtech government”M Œcost”K´Œdelhi”KßŒiit”M’Œ	cost tech”K¶Œscience indian”MÙŒtechnology delhi”M+Œ	delhi iit”KàŒ	iit delhi”M“Œ
-interested”M®Œstudying”MŒabroad”KŒ
-undergraduate”MVŒinterested studying”M¯Œstudying engineering”MŒengineering abroad”MŒabroad typical”KŒtypical fee”MRŒstructure undergraduate”MŒundergraduate programs”MWŒ private”MnŒ	does tech”KüŒengineering cost”MŒcost private”KµŒprivate university”MoŒfees”MMŒhigh”MzŒscholarships”MÓŒstudents”M
-Œ	fees high”MNŒhigh scholarships”M{Œscholarships available”MÔŒavailable engineering”KQŒengineering students”M&Œavailable sc”KXŒst students”MŒpost”MeŒmatric”MøŒscholarship”MÏŒcriteria rajasthan”KÅŒrajasthan post”M—Œpost matric”MfŒmatric scholarship”MùŒ	documents”KôŒrequired”M´Œapplying”K<Œmerit”MŒcum”KÈŒmeans”M Œdocuments required”KõŒrequired applying”MµŒapplying rajasthan”K=Œrajasthan merit”M–Œ	merit cum”MŒ	cum means”KÉŒmeans scholarship”MŒdeadline”KÙŒdeadline applying”KÚŒrajasthan engineering”M”Œengineering scholarship”M%Œwomen”MnŒpursuing”M‹Œavailable women”KZŒwomen pursuing”MoŒpursuing engineering”MŒŒdr”KþŒambedkar”K-Œcriteria dr”KÃŒdr ambedkar”KÿŒ
-ambedkar post”K.Œscholarship engineering”MÒŒapply rajasthan”K;Œengineering merit”M!Œmerit scholarship”MŒ	selection”MèŒselection process”MéŒprocess rajasthan”MrŒavailable polytechnic”KVŒpolytechnic students”MdŒstudents rajasthan”MŒbenefits”KaŒeconomically”MŒbackward”K]Œ classes”KŽŒbenefits rajasthan”KbŒrajasthan scholarship”M™Œscholarship economically”MÑŒeconomically backward”MŒbackward classes”K^Œ maximum”MúŒmaximum offered”MûŒeducation scholarship”M
-Œapplication”K5Œ
-excellence”M3Œapplication process”K6Œengineering excellence”MŒexcellence scholarship”M4Œrural”MÈŒscholarships students”MÕŒstudents rural”MŒrural areas”MÉŒareas pursuing”KBŒrequirement”M¶Œeligibility requirement”MŒrequirement rajasthan”M·Œ	deadlines”KÛŒdeadlines applying”KÜŒstatus”M Œcheck status”K‰Œstatus scholarship”MŒscholarship application”MÐŒmbm”MüŒfacilities mbm”M=Œmbm engineering”MýŒ special”MñŒ
-international”M²Œspecial facilities”MòŒfacilities international”M;Œinternational students”M³Œstudents government”MŒ average”K[Œaverage hostel”K\Œ
-hostel fee”MˆŒfee engineering”MKŒ	amenities”K/Œ hostels”MŠŒamenities available”K0Œavailable hostels”KSŒhostels government”MŒŒguest”MpŒrooms”MÆŒguest rooms”MqŒrooms available”MÇŒhostels malaviya”MŒ laundry”MÑŒlaundry facilities”MÒŒfacilities like”M<Œlike hostels”MÛŒcollege kota”K—Œsecurity”MæŒmeasures”MŒplace”MVŒ udaipur”MSŒsecurity measures”MçŒmeasures place”MŒ
-place hostels”MWŒcollege udaipur”KœŒmess”MŒfacility”M?Œ
-mess facility”MŒfacility available”M@Œhostels engineering”M‹Œtypes rooms”MOŒrecreational”M­Œrecreational facilities”M®Œfacilities hostels”M:Œhostels rajasthan”MŒroom”MÄŒ options”MMŒroom options”MÅŒoptions available”MNŒhostels mbm”MŽŒwi”MlŒfi”MOŒjhalawar offer”M¾Œoffer wi”M6Œwi fi”MmŒ
-accommodation”KŒ
-process apply”MqŒapply hostel”K9Œhostel accommodation”M†Œaccommodation rajasthan”K Œdifferently”KêŒabled”K Œfacilities differently”M9Œdifferently abled”KëŒabled students”KŒstudents hostels”MŒcommon”K¢Œcommon areas”K£Œ
-opportunities”MGŒplacement opportunities”MZŒopportunities college”MIŒcollege technology”K›Œtechnology engineering”M,Œengineering udaipur”M(Œopportunities rajasthan”MLŒrecord”M©Œplacement record”M\Œrecord government”MªŒ
-statistics”MŒplacement statistics”M^Œstatistics mbm”MŒopportunities government”MJŒopportunities malaviya”MKŒscenario”MÍŒplacement scenario”M]Œscenario government”MÎŒstatistics rajasthan”MŒopportunities available”MHŒ	prospects”M†Œplacement prospects”M[Œprospects college”M‡Œrecord rajasthan”M¬Œ
-record mbm”M«uŒ_sklearn_version”Œ1.6.1”ub.
+
