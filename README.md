@@ -37,6 +37,14 @@ The system uses **Natural Language Processing (NLP)** and an **Intent Classifica
 - Response generation from knowledge base
 
 ---
+<<<<<<< HEAD
+=======
+## 🚀 Key Highlights
+
+* **Efficient Intent Mapping:** Leverages a trained neural network to minimize response errors.
+* **Responsive Interface:** The streamlit-powered dashboard is optimized for both desktop and mobile web browsers.
+* **Scalable Knowledge Base:** Easily expand the system's capabilities by updating the intents.json
+>>>>>>> 39d268a86529baf6297ae635c38359e48839e4b9
 
 # 🏗️ System Architecture
 
@@ -287,6 +295,12 @@ available through the student portal.
 - 🗂️ Database integration for student services
 
 ---
+<<<<<<< HEAD
+=======
+## 🧑‍💻 Developed By
+* **Name:** Rajiv Kumar Tiwari
+* **Course:** B.Tech (Computer Science & Engineering)
+>>>>>>> 39d268a86529baf6297ae635c38359e48839e4b9
 
 # 👨‍💻 Development Workflow
 

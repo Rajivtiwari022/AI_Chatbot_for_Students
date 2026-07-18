@@ -50,4 +50,8 @@ if prompt:
 
 if st.sidebar.button("Clear Chat"):
     st.session_state.messages = []
+<<<<<<< HEAD
     st.rerun()
+=======
+    st.rerun()
+>>>>>>> 39d268a86529baf6297ae635c38359e48839e4b9

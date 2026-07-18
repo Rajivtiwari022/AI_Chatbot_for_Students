@@ -17,4 +17,8 @@ def clean_sentence(sentence):
         if word not in string.punctuation
     ]
 
+<<<<<<< HEAD
     return words
+=======
+    return words
+>>>>>>> 39d268a86529baf6297ae635c38359e48839e4b9

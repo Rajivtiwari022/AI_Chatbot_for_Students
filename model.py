@@ -20,4 +20,8 @@ def build_model(input_size, output_size):
         metrics=["accuracy"]
     )
 
+<<<<<<< HEAD
     return model
+=======
+    return model
+>>>>>>> 39d268a86529baf6297ae635c38359e48839e4b9

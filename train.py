@@ -58,4 +58,8 @@ with open("data/vectorizer.pkl", "wb") as f:
 with open("data/label_encoder.pkl", "wb") as f:
     pickle.dump(encoder, f)
 
+<<<<<<< HEAD
 print("Training completed successfully!")
+=======
+print("Training completed successfully!")
+>>>>>>> 39d268a86529baf6297ae635c38359e48839e4b9

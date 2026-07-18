@@ -43,4 +43,8 @@ def get_response(message):
     if tag in responses:
         return random.choice(responses[tag])
 
+<<<<<<< HEAD
     return "Sorry, I don't know the answer."
+=======
+    return "Sorry, I don't know the answer."
+>>>>>>> 39d268a86529baf6297ae635c38359e48839e4b9

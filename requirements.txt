@@ -2,4 +2,8 @@ streamlit
 tensorflow
 numpy
 nltk
+<<<<<<< HEAD
 scikit-learn
+=======
+scikit-learn
+>>>>>>> 39d268a86529baf6297ae635c38359e48839e4b9
